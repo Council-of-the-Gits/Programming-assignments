@@ -49,6 +49,10 @@ namespace assignment6
 
         private void  Form1_Load(object sender, EventArgs e)
         {
+            beforeLabel.Font = new Font(beforeLabel.Font, FontStyle.Bold);
+
+            afterLabel.Font = new Font(afterLabel.Font, FontStyle.Bold);
+
             Random random = new Random();
 
             double randomNumber;
